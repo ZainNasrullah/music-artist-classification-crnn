@@ -55,7 +55,7 @@ To re-create experimental results:
 - Run the main.py script. This will begin a training loop which runs three independent trials for each audio length in {1s, 3s, 5s, 10s, 20s, 30s}.
     - This script must be adjusted manually to vary whether or not to use an album split via the album_split flag in the train_model function call. 
     - It should be noted that training each model is computationally expensive and can take several hours even with reliable hardware. At minimum, a Nvidia GTX 1080 GPU is recommended with at least 16GB of memory on the machine.  
-- To reproduce the representation visualization, the representation.py script can be used but one must specify the model weight location and relevant audio clip length length. 
+- To reproduce the representation visualization, the representation.py script can be used but one must specify the model weight location and relevant audio clip length. 
 
 The models and utility functions provided can also generically be used for any audio-based classification task where one wants to experiment with audio length. The train_model function in src/trainer.py is fairly extensive. 
 
