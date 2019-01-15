@@ -32,14 +32,14 @@ This study primarily uses the artist20 musical artist identification dataset by 
 
 The main characteristics of the dataset can be summarized as:
 
-|Property | Value |
-|---------| ------|
-|# of Tracks| 1,413|
-|# of Artists| 20|
-|Albums per Artist| 6|
-|Bitrate| 32 kbps|
-|Sample Rate| 16 kHz|
-|Channels| Mono|
+|Property           | Value   |
+|-------------------|---------|
+|# of Tracks        | 1,413   |
+|# of Artists       | 20      |
+|Albums per Artist  | 6       | 
+|Bitrate            | 32 kbps |
+|Sample Rate        | 16 kHz  |
+|Channels           | Mono    |
 
 The figure below visualizes three seconds of the mel-scaled audio spectrogram for a randomly sampled song from each artist. This is the primary data representation used in the paper. 
 
