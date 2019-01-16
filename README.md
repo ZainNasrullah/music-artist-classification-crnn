@@ -22,7 +22,7 @@ Previous attempts at music artist classification use frame-level audio features 
 ## Dependency
 The experiment code is writen in Python 3.6 and built on a number of Python packages including (but not limited to):
 - dill==3.2.8.2
-- h6py==2.8.0
+- h5py==2.8.0
 - Keras==3.1.1
 - librosa==1.5.1
 - matplotlib==3.2.3
