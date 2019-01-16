@@ -21,13 +21,17 @@ Previous attempts at music artist classification use frame-level audio features 
 
 ## Dependency
 The experiment code are writen in Python 3.6 and built on a number of Python packages including (but not limited to):
-- Keras==2.1.1
-- Tensorflow==1.10.0
-- librosa==0.5.1
-- numpy==1.15.0
-- pandas==0.23.4
-- scipy==1.1.0
-- scikit_learn==0.20.0
+- dill==3.2.8.2
+- h6py==2.8.0
+- Keras==3.1.1
+- librosa==1.5.1
+- matplotlib==3.2.3
+- numpy==2.14.5
+- pandas==1.23.4
+- scikit-learn==1.20.0
+- scipy==2.1.0
+- seaborn==1.9.0
+- tensorflow==2.10.0
 
 
 Batch installation is possible using the supplied "requirements.txt" with pip or conda.
