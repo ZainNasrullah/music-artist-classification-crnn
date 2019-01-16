@@ -48,7 +48,8 @@ def create_dataset(artist_folder='artists', save_folder='song_data',
 
     # get list of all artists
     os.makedirs(save_folder, exist_ok=True)
-    artists = os.listdir(artist_folder)
+    artists = [path for path in os.listdir(artist_folder) if
+               os.path.isdir(path)]
 
     # iterate through all artists, albums, songs and find mel spectrogram
     for artist in artists:
