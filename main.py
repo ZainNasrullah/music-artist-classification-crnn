@@ -22,7 +22,7 @@ if __name__ == '__main__':
     29.12s 911 frames
     '''
 
-    slice_lengths = [32, 94, 157, 313, 628, 911]
+    slice_lengths = [911, 628, 313, 157, 94, 32]
     random_state_list = [0, 21, 42]
     iterations = 3
     summary_metrics_output_folder = 'trials_song_split'
@@ -36,6 +36,7 @@ if __name__ == '__main__':
                 slice_length=slice_len,
                 lr=0.001,
                 train=True,
+                load_checkpoint=True,
                 plots=False,
                 album_split=False,
                 random_states=random_state_list[i],
