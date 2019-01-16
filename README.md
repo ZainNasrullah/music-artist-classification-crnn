@@ -36,6 +36,13 @@ Batch installation is possible using the supplied "requirements.txt" with pip or
 pip install -r requirements.txt
 ````
 
+Additional install details (recommended for replication and strong performance):
+- Python: 3.6.6
+- GPU: Nvidia GTX 1080 (Driver: 390.87)
+- CUDA: 8.0
+- CUDNN: 7.0.5
+
+
 ## Datasets
 
 This study primarily uses the artist20 musical artist identification dataset by Labrosa [1]. The data is accessible upon request from https://labrosa.ee.columbia.edu/projects/artistid/.
