@@ -3,7 +3,6 @@ import src.models as models
 
 import os
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from os.path import isfile
 
@@ -11,7 +10,6 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.optimizers import Adam
 
 from sklearn.metrics import confusion_matrix, classification_report
-import gc
 
 
 def train_model(nb_classes=20,

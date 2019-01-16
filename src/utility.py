@@ -5,9 +5,7 @@ import itertools
 
 import numpy as np
 from numpy.random import RandomState
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 import librosa
 import librosa.display

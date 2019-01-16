@@ -10,7 +10,6 @@ from keras.layers import Dense, Dropout, Activation, Reshape, Permute
 from keras.layers import Conv1D, Conv2D, MaxPooling1D, MaxPooling2D
 from keras.layers.normalization import BatchNormalization
 from keras.layers.recurrent import GRU, LSTM
-from keras import backend as K
 
 
 def CRNN2D(X_shape, nb_classes):
