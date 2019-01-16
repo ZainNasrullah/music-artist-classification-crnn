@@ -56,7 +56,7 @@ if __name__ == '__main__':
         raise Exception('no checkpoint for {}'.format(checkpoint_path))
 
     # drop final dense layer and activation
-    print("Modifying model and predicting representing")
+    print("Modifying model and predicting representation")
     model.pop()
     model.pop()
     model.summary()
