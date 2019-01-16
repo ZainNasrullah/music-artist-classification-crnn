@@ -45,6 +45,7 @@ Additional install details (recommended for replication and strong performance):
 - GPU: Nvidia GTX 1080 (Driver: 390.87)
 - CUDA: 8.0
 - CUDNN: 7.0.5
+- [ffmpeg](http://ffmpeg.org/download.html) is required by Librosa to convert audio files into spectrograms. 
 
 
 ## Datasets
