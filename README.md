@@ -1,16 +1,19 @@
 # Musical Artist Classification with Convolutional Recurrent Neural Networks
 
-Z. Nasrullah, Y. Zhao, Musical Artist Classification with Convolutional Recurrent Neural Networks. *International Joint Conference on Neural Networks (IJCNN)*, 2019. **Submitted, under review**.
+Z. Nasrullah, Y. Zhao, Musical Artist Classification with Convolutional Recurrent Neural Networks. *International Joint Conference on Neural Networks (IJCNN)*, 2019.
 
-[Preprint (PDF)](http://arxiv.org/abs/1901.04555). Biblatex entry:
+Please cite the paper as:
 
-    @online{nasrullah2019music,
+    @inproceedings{nasrullah2019music,
       author       = {Zain Nasrullah and Yue Zhao},
       title        = {Musical Artist Classification with Convolutional Recurrent Neural Networks},
-      year         = {2019},
-      journal      = {arXiv preprint arXiv:1901.04555},
-      url          = {https://arxiv.org/abs/1901.04555}
+      booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+      pages={1--8},
+      year={2019},
+      organization={IEEE}
     }
+        
+ [PDF](http://arxiv.org/abs/1901.04555). 
 
 ## Introduction
 Previous attempts at music artist classification use frame-level audio features which summarize frequency content within short intervals of time. Comparatively, more recent music information retrieval tasks take advantage of temporal structure in audio spectrograms using deep convolutional and recurrent models. This paper revisits artist classification with this new framework and empirically explores the impacts of incorporating temporal structure in the feature representation. To this end, an established classification architecture, a Convolutional Recurrent Neural Network (CRNN), is applied to the artist20 music artist identification dataset under a comprehensive set of conditions. These include audio clip length, which is a novel contribution in this work, and previously identified considerations such as dataset split and feature-level. Our results improve upon baseline works, verify the influence of the production details on classification performance and demonstrate the trade-offs between sample length and training set size. The best performing model achieves an average F1-score of 0.937 across three independent trials which is a substantial improvement over the corresponding baseline under similar conditions. Finally, to showcase the effectiveness of the CRNN's feature extraction capabilities, we visualize audio samples at its bottleneck layer demonstrating that learned representations segment into clusters belonging to their respective artists.
