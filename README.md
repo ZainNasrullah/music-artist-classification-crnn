@@ -8,7 +8,6 @@ Please cite the paper as:
       author={Zain Nasrullah and Yue Zhao},
       title={Musical Artist Classification with Convolutional Recurrent Neural Networks},
       booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
-      pages={1--8},
       year={2019},
       organization={IEEE}
     }
