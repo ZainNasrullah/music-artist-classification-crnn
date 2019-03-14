@@ -22,7 +22,7 @@ Please cite the paper as:
 Previous attempts at music artist classification use frame level audio features which summarize frequency content within short intervals of time. Comparatively, more recent music information retrieval tasks take advantage of temporal structure in audio spectrograms using deep convolutional and recurrent models. This paper revisits artist classification with this new framework and empirically explores the impacts of incorporating temporal structure in the feature representation. To this end, an established classification architecture, a Convolutional Recurrent Neural Network (CRNN), is applied to the artist20 music artist identification dataset under a comprehensive set of conditions. These include audio clip length, which is a novel contribution in this work, and previously identified considerations such as dataset split and feature level. Our results improve upon baseline works, verify the influence of the producer effect on classification performance and demonstrate the trade-offs between audio length and training set size. The best performing model achieves an average F1 score of 0.937 across three independent trials which is a substantial improvement over the corresponding baseline under similar conditions. Additionally, to showcase the effectiveness of the CRNN's feature extraction capabilities, we visualize audio samples at the model's bottleneck layer demonstrating that learned representations segment into clusters belonging to their respective artists.
 
 
-![Convolutional Recurrent Neural Network](https://github.com/ZainNasrullah/musical-artist-classification-crnn/blob/final/images/crnn_arch.png)
+![Convolutional Recurrent Neural Network](https://github.com/ZainNasrullah/music-artist-classification-crnn/blob/master/images/crnn_arch.png)
 
 
 ## Dependency
@@ -71,7 +71,7 @@ The main characteristics of the dataset can be summarized as:
 
 The figure below visualizes three seconds of the mel-scaled audio spectrogram for a randomly sampled song from each artist. This is the primary data representation used in the paper. 
 
-![Convolutional Recurrent Neural Network](https://github.com/ZainNasrullah/musical-artist-classification/blob/final/images/artists.PNG)
+![Convolutional Recurrent Neural Network](https://github.com/ZainNasrullah/music-artist-classification-crnn/blob/master/images/artists.PNG)
 
 ## Usage
 
@@ -113,7 +113,7 @@ As a whole, from the four base conditions resulting from audio split and level, 
 
 Additionally, audio samples at the bottleneck layer of the network are also visualized using t-SNE to demonstrate how effectively the model is able to learn to classify artists. As can be seen below, the learned representations prior to classification separate into distinct clusters belonging to each artist demonstrating that the convolution and recurrent layers are effective at the task. The example below is for the model trained on 10s of audio.  
 
-![Learned representations at bottleneck layer of network (10s)](https://github.com/ZainNasrullah/musical-artist-classification/blob/final/images/representation_313.png)
+![Learned representations at bottleneck layer of network (10s)](https://github.com/ZainNasrullah/music-artist-classification-crnn/blob/master/images/representation_313.png)
 
 ## Conclusions
 This paper establishes a deep learning baseline for music artist classification on the \textbf{\textit{artist20}} dataset and demonstrates that a Convolutional Recurrent Neural Network is able to outperform traditional baselines under a range of conditions. The results show that including additional temporal structure in an audio sample improves classification performance and also that there is a point beyond which the returns may diminish. This is attributed to a possible lack of complexity in the model or early pooling layers discarding too much information. Using the trained models, predictions are also aggregated at the song level using a majority vote to determine the artist performing a song. This leads to another substantial gain in performance and validates the feasibility of using a CRNN for industry applications such as copyright detection. The best-performing model is trained using three second audio samples under a song dataset split and evaluated at the song level to achieve an average F1 score of 0.937 across three independent trials. Additionally, we visualize audio samples at the bottleneck layer of the network to show that learned representations cluster by artist---highlighting the model's capability as a feature extractor. Future directions include audio augmentation, model pre-training and minimizing temporal pooling as avenues for further performance improvement.  
