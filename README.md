@@ -1,6 +1,6 @@
 # Musical Artist Classification with Convolutional Recurrent Neural Networks
 
-Nasrullah, Z. and Zhao, Y., Musical Artist Classification with Convolutional Recurrent Neural Networks. *International Joint Conference on Neural Networks (IJCNN)*, 2019. **Accepted, to appear.**
+Nasrullah, Z. and Zhao, Y., Musical Artist Classification with Convolutional Recurrent Neural Networks. *International Joint Conference on Neural Networks (IJCNN)*, 2019.
 
 Please cite the paper as:
 
