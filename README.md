@@ -15,7 +15,7 @@ Please cite the paper as:
       organization={IEEE}
     }
         
- [PDF for Personal Use](http://arxiv.org/abs/1901.04555) | [IEEE Explore](https://ieeexplore.ieee.org/document/8851988)
+ [PDF for Personal Use](http://arxiv.org/abs/1901.04555) | [IEEE Xplore](https://ieeexplore.ieee.org/document/8851988)
 
 
 ------------
