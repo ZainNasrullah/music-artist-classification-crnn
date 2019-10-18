@@ -9,10 +9,13 @@ Please cite the paper as:
       title={Musical Artist Classification with Convolutional Recurrent Neural Networks},
       booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
       year={2019},
+      month={July}
+      pages={1-8},
+      doi={10.1109/IJCNN.2019.8851988},
       organization={IEEE}
     }
         
- [PDF for Personal Use](http://arxiv.org/abs/1901.04555) | [IJCNN 2019](https://www.ijcnn.org/)
+ [PDF for Personal Use](http://arxiv.org/abs/1901.04555) | [IEEE Explore](https://ieeexplore.ieee.org/document/8851988)
 
 
 ------------
